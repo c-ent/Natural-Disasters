@@ -544,6 +544,8 @@
         justify-content: center;
     }
     /* Footer end */
+
+   
 }
 
 @media (max-width: 767px) {
@@ -936,6 +938,12 @@
         padding: 0 0 40px;
     }
     /* Footer end */
+
+
+    th, td {
+        font-size: 12px;
+        padding: 2px;
+     }
 }
 
 /*---------- Small Mobile , IPhone Start ----------*/
