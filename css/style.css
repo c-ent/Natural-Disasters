@@ -641,7 +641,8 @@ ul li {
 }
 
 .disasters a {
-    height: calc(100% - 45px);
+    /* height: calc(100% - 45px); */
+    height: 100%    ;
     margin-bottom: 45px;
     display: block;
 }
@@ -655,10 +656,12 @@ ul li {
     -moz-transition: all .4s;
     -ms-transition: all .4s;
     -o-transition: all .4s;
+    height: 100%;
 }
 
 .disasters a .image img {
-    min-height: 380px;
+    min-height: 553px;
+    height: 100%;
     object-fit: cover;
     font-family: "object-fit: cover";
     transition: all .4s;
@@ -1130,6 +1133,9 @@ ul li {
     list-style-type: none;
 }
 
+#disaster-class .logo-text{
+    min-height: 300px !important;
+}
 .disaster_list li:last-child {
     padding: 0;
 }
@@ -1590,3 +1596,7 @@ tr:hover {
 /*========== Footer End ==========*/
 
 /*==================================================================*/
+
+#natural-disasters .cardnat{
+    max-height: 500px;
+}

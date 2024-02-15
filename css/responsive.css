@@ -31,7 +31,8 @@
         padding: 40px 0px 5px;
     }
     .disasters a {
-        height: calc(100% - 35px);
+        /* height: calc(100% - 35px); */
+        height: 100%;
         margin-bottom: 35px;
     }
     .trend-natural {
@@ -361,7 +362,8 @@
         text-align: center;
     }
     .disasters a {
-        height: calc(100% - 35px);
+         /* height: calc(100% - 35px); */
+         height: 100%;
         margin-bottom: 35px;
     }
     .trend-natural {
@@ -1016,6 +1018,10 @@
     }
     .deadliest-natural {
         margin: 20px 0px 20px;
+    }
+
+    .disasters a .image img{
+        min-height: 734px;
     }
 }
 
