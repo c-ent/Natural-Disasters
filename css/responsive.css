@@ -54,7 +54,7 @@
         padding: 85px 0px 135px;
     }
     .all-counter .counter-text p {
-        line-height: 2;
+        line-height: 1.5;
     }
     .all-counter .counter-text .head {
         font-size: 28px;
@@ -387,7 +387,7 @@
         padding: 65px 0px 115px;
     }
     .all-counter .counter-text p {
-        line-height: 1.5;
+        line-height: 1;
         font-size: 18px;
     }
     .all-counter .counter-text .head {
@@ -712,7 +712,7 @@
     }
     .all-counter .counter-text p {
         font-size: 17px;
-        line-height: 2.1;
+        line-height: 1.5;
     }
     .since-counter {
         margin: 0px 0px 25px;

@@ -42,7 +42,7 @@ ul {
     margin: 0;
 }
 
-p {
+p,td,th {
     font-size: 17px;
     line-height: 28px;
     color: #222;
@@ -50,6 +50,8 @@ p {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 14px;
 }
+
+
 
 /*==================================================================*/
 
@@ -806,7 +808,7 @@ ul li {
 
 .all-counter .counter-text p {
     font-size: 19px;
-    line-height: 2.5;
+    line-height: 2s;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0;
@@ -1301,6 +1303,53 @@ ul li {
 /*========== New Class Add End ==========*/
 
 /*==================================================================*/
+
+
+
+/*==================================================================*/
+
+/*========== Table Start ==========*/
+
+/*==================================================================*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Light Gray */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light Gray */
+}
+
+tr:hover {
+    background-color: #ddd; /* Light Gray */
+}
+
+
+/*==================================================================*/
+
+/*========== Tale End ==========*/
+
+/*==================================================================*/
+
+
+
+
+
+
+
+
+
 
 /*==================================================================*/
 
