@@ -1,0 +1,1022 @@
+/*////////////////////////////////////////////////////// Responsive CSS Structure //////////////////////////////////////////////////////*/
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* .navbar .navbar-nav .nav-item {margin: 0 52px;} */
+    .heading {
+        font-size: 36px;
+        line-height: 1.1;
+    }
+    .banner-section .b-head span {
+        font-size: 68px;
+    }
+    .banner-section {
+        padding: 330px 0px 250px;
+    }
+    .arrow li {
+        margin-bottom: 32px;
+    }
+    .natural {
+        margin: 80px 0px 50px;
+    }
+    .disasters a .image .text {
+        padding: 25px;
+    }
+    .disasters {
+        padding: 40px 0px 5px;
+    }
+    .disasters a {
+        height: calc(100% - 35px);
+        margin-bottom: 35px;
+    }
+    .trend-natural {
+        margin: 40px 0px 55px;
+    }
+    .natural-chart {
+        padding-top: 40px;
+    }
+    .worldwide {
+        padding: 50px 0px 40px;
+    }
+    .natural-country {
+        margin: 40px 0 0px;
+        padding: 65px 0px 65px;
+    }
+    .human-cost .cost-deaths {
+        padding: 25px;
+    }
+    .human-cost .image-cost {
+        padding: 85px 0px 135px;
+    }
+    .all-counter .counter-text p {
+        line-height: 2;
+    }
+    .all-counter .counter-text .head {
+        font-size: 28px;
+    }
+    .all-counter .counter-text .icon {
+        font-size: 50px;
+    }
+    .since-counter {
+        margin: 0px 0px 40px;
+    }
+    .total-number {
+        padding: 40px 0px 0px;
+    }
+    .are-getting {
+        padding: 40px 0 50px;
+    }
+    .are-getting .point-text {
+        padding: 20px 25px 21px 25px;
+    }
+    .deadliest-natural {
+        margin: 50px 0px 40px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .boxed-storms .title {
+        line-height: 1.1;
+        margin-bottom: 12px;
+    }
+    .boxed-storms .text-logo {
+        margin-bottom: 40px;
+    }
+    .boxed-storms .text-logo.right-text .logo-icon {
+        margin-left: 15px;
+    }
+    .boxed-storms .text-logo .logo-icon svg {
+        padding: 30px;
+    }
+    .boxed-storms .text-logo.left-text .logo-icon {
+        margin-right: 15px;
+    }
+    .boxed-storms .text-logo .logo-icon img {
+        width: 100px;
+        height: 100px;
+        padding: 30px;
+    }
+    .hurricanes {
+        padding: 40px 0px 40px;
+    }
+    .natural_disaster_wrp {
+        margin: 40px 0px 40px;
+    }
+    .hurricanes_wrp {
+        padding: 40px 0 50px;
+    }
+    .hurricanes_wrp .head {
+        margin: 0 0 65px;
+    }
+    .huricanes_block {
+        padding: 0px 0px 25px 25px;
+        margin: 0 0 40px;
+    }
+    .huricanes_block .huricanes_number {
+        padding: 8px 8px 12px 12px;
+    }
+    .huricanes_block .huricanes_content {
+        padding: 0 0 20px;
+    }
+    .sources_wrp {
+        padding: 40px 0 65px;
+    }
+    .sources_wrp {
+        padding: 30px 0 55px;
+    }
+    /* .footer {padding: 40px 0;} */
+    .disasters .row {
+        margin: 0px -18px;
+    }
+    .disasters [class^="col-"] {
+        padding: 0px 18px;
+    }
+    .worldwide [class*=col-] {
+        padding: 0 18px;
+    }
+    .worldwide .row {
+        margin: 0 -18px;
+    }
+    .deadliest-natural .deadliest-natural-left {
+        padding: 0 30px 0 0;
+    }
+    /* Header Start */
+    .navbar .navbar-brand img {
+        width: 200px;
+    }
+    .header .nav-link {
+        font-size: 14px;
+    }
+    .header .navbar-nav {
+        margin: 0 20px 0 0;
+    }
+    /* Header end */
+}
+
+@media (max-width: 991px) {
+    /* Header Start */
+    .top_left_header ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .top_left_header ul li {
+        padding: 0 0 5px;
+    }
+    .top_left_header ul li:last-child {
+        padding-bottom: 0;
+    }
+    .top_right_header .page_links li a {
+        font-size: 14px;
+        line-height: 48px;
+    }
+    .navbar .navbar-brand img {
+        width: 200px;
+        padding: 15px 0;
+    }
+    .top_left_header {
+        padding: 10px 0;
+    }
+    .bottom_header .navbar-toggler span {
+        background-color: #276db8;
+        width: 25px;
+        display: block;
+        height: 2px;
+        margin-bottom: 5px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .bottom_header .navbar-toggler span:last-child {
+        margin-bottom: 0;
+    }
+    .bottom_header .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .bottom_header .navbar-toggler {
+        position: relative;
+        z-index: 10;
+        padding: 0;
+    }
+    .bottom_header .navbar-toggler.open span:first-child {
+        position: relative;
+        top: 5px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+    }
+    .bottom_header .navbar-toggler.open span:nth-child(2) {
+        display: none;
+    }
+    .bottom_header .navbar-toggler.open span:last-child {
+        position: relative;
+        top: -2px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+    }
+    .header .navbar-collapse {
+        position: fixed;
+        background-color: #222222;
+        right: -100%;
+        z-index: 9;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        padding: 140px 50px 80px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .header .navbar-collapse.show {
+        right: 0;
+        height: auto;
+    }
+    .header .nav-link {
+        line-height: 40px;
+    }
+    .header .nav-item {
+        padding: 10px 0;
+    }
+    .header .navbar-collapse::after {
+        content: "";
+        position: fixed;
+        background-color: #222222;
+        right: -100%;
+        top: 0;
+        width: 100%;
+        height: 140px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .header .navbar-collapse.show::after {
+        right: 0;
+    }
+    .header .nav-item>.nav-link::before {
+        border-bottom-width: 4px;
+    }
+    .header .dropdown-toggle::after {
+        right: 0 !important;
+    }
+    .search_bar {
+        z-index: 11;
+        padding: 50px 20px;
+        top: 65px;
+    }
+    .search_bar .form-control {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 10px 15px;
+    }
+    .close_icon a {
+        font-size: 22px;
+        line-height: 22px;
+        right: 10px;
+        top: 10px;
+    }
+    .top_left_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /* Header End */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner-section .logo img {
+        max-width: 250px;
+    }
+    /* .navbar .navbar-nav .nav-item {margin: 0 26px;} */
+    .heading {
+        font-size: 30px;
+        line-height: 1;
+    }
+    .banner-section .b-head span {
+        font-size: 50px;
+    }
+    .banner-section .title {
+        padding: 12px 16px;
+        margin-bottom: 18px;
+    }
+    .fanding .fanding-text {
+        padding: 35px 20px;
+        margin-top: -110px;
+    }
+    .banner-section {
+        padding: 250px 0px 165px;
+    }
+    .fanding-text .head {
+        margin-bottom: 25px;
+    }
+    .head {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+    .arrow li {
+        margin-bottom: 28px;
+    }
+    .disasters .row {
+        margin: 0px -12px;
+    }
+    .disasters [class^="col-"] {
+        padding: 0px 12px;
+    }
+    .natural {
+        margin: 45px 0px 20px;
+    }
+    .natural ul {
+        padding-left: 30px;
+        margin-bottom: 15px;
+    }
+    .natural .logo-text {
+        margin-bottom: 30px;
+        height: calc(100% - 30px);
+    }
+    ul li {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .disasters {
+        padding: 30px 0px 5px;
+    }
+    .disasters .head,
+    .disasters p {
+        text-align: center;
+    }
+    .disasters a {
+        height: calc(100% - 35px);
+        margin-bottom: 35px;
+    }
+    .trend-natural {
+        margin: 30px 0px 40px;
+    }
+    .natural-chart {
+        padding-top: 30px;
+    }
+    .worldwide {
+        padding: 40px 0px 30px;
+    }
+    .total-number {
+        padding: 30px 0px 0px;
+    }
+    .natural-country {
+        margin: 40px 0 0px;
+        padding: 50px 0px 50px;
+    }
+    .human-cost .cost-deaths {
+        padding: 22px;
+    }
+    .human-cost .image-cost {
+        padding: 65px 0px 115px;
+    }
+    .all-counter .counter-text p {
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .all-counter .counter-text .head {
+        font-size: 26px;
+    }
+    .all-counter .counter-text .icon {
+        font-size: 50px;
+    }
+    .excessive_heat_block {
+        padding: 12px;
+        border-right: 1px solid #DEDDDD;
+        border-bottom: none;
+    }
+    .disaster_list li {
+        font-size: 14px;
+        line-height: 22.5px;
+        margin: 0 0 15px;
+    }
+    .disaster_list ul {
+        padding: 0 0 0 20px;
+    }
+    .disaster_list {
+        padding: 15px 15px 15px 25px;
+        border-left: 1px solid #DEDDDD;
+        border-top: none;
+    }
+    .average_fatalities_middle .chart_detail {
+        padding: 0 0 15px;
+    }
+    .average_fatalities_middle {
+        padding: 16px 16px 0;
+    }
+    .fatalities_chart_bottom h4 {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0 0 20px;
+    }
+    .since-counter {
+        margin: 0px 0px 30px;
+    }
+    .are-getting {
+        padding: 30px 0 30px;
+    }
+    .are-getting .point-text {
+        padding: 20px 25px 21px 25px;
+    }
+    .deadliest-natural {
+        margin: 30px 0px 30px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .boxed-storms .title {
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+    .boxed-storms .text-logo {
+        margin-bottom: 20px;
+    }
+    .boxed-storms .text-logo.right-text .logo-icon {
+        margin-left: 15px;
+    }
+    .boxed-storms .text-logo .logo-icon svg {
+        padding: 20px;
+        font-size: 28px;
+    }
+    .boxed-storms .text-logo.left-text .logo-icon {
+        margin-right: 15px;
+    }
+    .boxed-storms .text-logo .logo-icon img {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .total-number .left-text .text {
+        width: 75%;
+    }
+    .boxed-storms .text-logo.left-text .logo-icon {
+        margin-right: 15px;
+    }
+    .hurricanes {
+        padding: 30px 0px 30px;
+    }
+    .natural_disaster_wrp {
+        margin: 30px 0px 30px;
+    }
+    .hurricanes_wrp {
+        padding: 30px 0 30px;
+    }
+    .hurricanes_wrp .head {
+        margin: 0 0 55px;
+    }
+    .huricanes_block {
+        padding: 0px 0px 25px 25px;
+        margin: 0 0 30px;
+    }
+    .huricanes_block .huricanes_number {
+        padding: 8px 8px 12px 12px;
+    }
+    .huricanes_block .huricanes_content {
+        padding: 0 0 15px;
+    }
+    .sources_wrp {
+        padding: 30px 0 55px;
+    }
+    .sources_wrp {
+        padding: 30px 0 40px;
+    }
+    /* .footer {padding: 30px 0;} */
+    .huricanes_block {
+        margin: 0 0 30px;
+    }
+    .hurricanes_wrp .head {
+        margin: 0 0 30px;
+    }
+    .huricanes_number span {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .huricanes_content h4 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .are-getting .are-getting-block {
+        padding: 0 0 0 20px;
+    }
+    .deadliest-natural .deadliest-natural-left {
+        padding: 0 10px 0 0;
+    }
+    .worldwide [class*=col-] {
+        padding: 0 15px;
+    }
+    .worldwide .row {
+        margin: 0 -15px;
+    }
+    /* Footer Start */
+    .footer_left {
+        padding: 0 20px 60px 0;
+    }
+    .footer_contact_wrp ul li:nth-child(2) {
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .footer_contact_wrp ul li .blue_btn {
+        padding: 6px 26px;
+    }
+    .copyright_block {
+        text-align: center;
+        padding: 0 0 12px;
+    }
+    .privacy-policy ul {
+        justify-content: center;
+    }
+    /* Footer end */
+}
+
+@media (max-width: 767px) {
+    .banner-section .logo img {
+        max-width: 185px;
+    }
+    .banner-section .logo {
+        top: 10px;
+    }
+    .heading {
+        font-size: 36px;
+        line-height: 1.1;
+        margin: 6px 0 12px;
+    }
+    .banner-section {
+        padding: 220px 0px 135px;
+    }
+    .banner-section .title {
+        padding: 12px 12px;
+        margin-bottom: 18px;
+    }
+    .banner-section .b-head span {
+        font-size: 38px;
+    }
+    .fanding .fanding-text {
+        padding: 30px 20px;
+        margin-top: -70px;
+    }
+    .head {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .arrow li {
+        margin-bottom: 20px;
+    }
+    .natural {
+        margin: 30px 0px 0px;
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .disasters {
+        padding: 25px 0px 5px;
+    }
+    .natural .heading {
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .natural ul {
+        padding-left: 25px;
+        margin-bottom: 15px;
+    }
+    .natural .logo-text .icon svg {
+        font-size: 45px;
+    }
+    .natural .logo-text .icon {
+        margin-bottom: 10px;
+    }
+    .natural .logo-text .text span {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+    .natural .logo-text .text ul {
+        padding-left: 22px;
+    }
+    .natural .row {
+        margin: 0px -12px;
+    }
+    .natural [class^="col-"] {
+        padding: 0px 12px;
+    }
+    .hurricanes {
+        padding: 25px 0px 25px;
+    }
+    .natural_disaster_wrp {
+        margin: 25px 0px 25px;
+        overflow: hidden;
+    }
+    ul li {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .natural .logo-text {
+        height: calc(100% - 20px);
+        margin-bottom: 20px;
+    }
+    .disasters .row {
+        margin: 0px -12px;
+    }
+    .disasters [class^="col-"] {
+        padding: 0px 12px;
+    }
+    .disasters a {
+        height: calc(100% - 25px);
+        margin-bottom: 25px;
+    }
+    .disasters a .image .text {
+        padding: 18px;
+    }
+    .disasters a .title {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .trend-natural {
+        margin: 25px 0px 25px;
+    }
+    .total-number {
+        padding: 25px 0px 0px;
+    }
+    .natural-chart {
+        padding-top: 35px;
+    }
+    .worldwide {
+        padding: 25px 0px 25px;
+    }
+    .natural-country {
+        margin: 30px 0 0px;
+        padding: 40px 0px 40px;
+    }
+    .human-cost .image-cost {
+        padding: 55px 0px 105px;
+    }
+    .human-cost .cost-deaths {
+        padding: 15px;
+        margin-bottom: 16px;
+    }
+    .disaster_list li {
+        margin: 0 0 20px;
+    }
+    .disaster_list {
+        border-left: 1px solid #DEDDDD;
+        padding: 20px;
+    }
+    .since-counter .all-counter .row {
+        margin: 0px -12px;
+    }
+    .since-counter .all-counter [class^="col-"] {
+        padding: 0px 12px;
+        border: none;
+    }
+    .since-counter.since-counter-black .all-counter [class^="col-"]::after {
+        background-color: #FFFFFF;
+    }
+    .since-counter .all-counter [class^="col-"]::after {
+        content: "";
+        width: 85%;
+        height: 1px;
+        background-color: #030F271F;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .since-counter .all-counter {
+        margin-top: -70px;
+        padding: 20px 15px;
+    }
+    .all-counter .counter-text .icon {
+        font-size: 50px;
+    }
+    .all-counter .counter-text .head {
+        font-size: 26px;
+    }
+    .all-counter .counter-text p {
+        font-size: 17px;
+        line-height: 2.1;
+    }
+    .since-counter {
+        margin: 0px 0px 25px;
+    }
+    .excessive_heat_block {
+        border-right: 1px solid #DEDDDD;
+        padding: 20px;
+    }
+    .are-getting {
+        padding: 25px 0 30px;
+    }
+    .human-cost .cost-deaths .heading {
+        margin: 0;
+    }
+    .are-getting .point-text {
+        padding: 20px 20px 20px 20px;
+        margin: 15px 0px 15px;
+    }
+    .are-getting .arrow li {
+        margin-bottom: 12px;
+    }
+    .deadliest-natural {
+        margin: 25px 0px 25px;
+    }
+    .boxed-storms .text-logo.right-text {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .total-number .right-text .title,
+    .total-number .boxed-storms .right-text p {
+        text-align: center;
+    }
+    .total-number p {
+        margin-bottom: 25px;
+    }
+    .boxed-storms .text-logo .logo-icon svg {
+        padding: 30px;
+        font-size: 28px;
+        margin: 0 auto;
+    }
+    .boxed-storms .text-logo.left-text .logo-icon {
+        margin-right: 15px;
+    }
+    .boxed-storms .text-logo .logo-icon img {
+        width: 100px;
+        height: 100px;
+        padding: 30px;
+        margin: 0 auto;
+    }
+    .total-number .left-text .text {
+        width: 100%;
+    }
+    .boxed-storms .text-logo.right-text .logo-icon {
+        margin-left: 0;
+        text-align: center;
+    }
+    .boxed-storms .title {
+        margin-bottom: 10px;
+    }
+    .boxed-storms .text-logo {
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxed-storms .text-logo.left-text .logo-icon {
+        margin-right: 0;
+        text-align: center;
+    }
+    .boxed-storms .title {
+        text-align: center;
+    }
+    .huricanes_number span {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .huricanes_block .huricanes_number {
+        padding: 6px 6px 10px 10px;
+    }
+    .total-number .boxed-storms .left-text p {
+        text-align: center;
+    }
+    .sources_wrp {
+        padding: 30px 0;
+    }
+    .huricanes_block {
+        padding: 0px 0px 25px 25px;
+        margin: 0 0 30px;
+    }
+    .huricanes_block p {
+        padding: 0 25px 0 0;
+    }
+    .huricanes_content h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .huricanes_block .huricanes_content {
+        padding: 0 0 15px;
+    }
+    .huricanes_content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .hurricanes_wrp .head {
+        margin: 0 0 30px;
+    }
+    .hurricanes_wrp {
+        padding: 25px 0 25px;
+    }
+    /* .footer {padding: 30px 0 25px;} */
+    .deadliest-natural .deadliest-natural-left {
+        padding: 0 0 30px;
+    }
+    .fatalities_chart_bottom h4 {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 0 0 20px;
+    }
+    /* .navbar .navbar-nav .nav-item { margin: 0 10px; }
+    .navbar .navbar-brand img {width: 318px;}
+    .navbar {flex-direction: column;}
+    .navbar .navbar-brand {font-size: 0; padding: 0 0 15px;}
+    .navbar-expand .navbar-collapse {width: 100%;}
+    .navbar .navbar-nav {width: 100%; justify-content: space-between;} */
+    .average_fatalities_middle {
+        padding: 30px 15px 0;
+    }
+    .are-getting .are-getting-block {
+        padding: 0;
+    }
+    .worldwide [class*=col-] {
+        padding: 0 12px;
+    }
+    .worldwide .row {
+        margin: 0 -12px;
+    }
+    /* Header Start */
+    .header .nav-link {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .top_left_header ul li {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 0 10px 0;
+    }
+    .top_left_header ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navbar .navbar-brand img {
+        width: 160px;
+    }
+    .header .navbar-collapse::after {
+        height: 100px;
+    }
+    .header .navbar-collapse {
+        padding: 110px 25px 80px;
+    }
+    .top_right_header .social_media {
+        padding: 5px 10px;
+        border-left: none;
+    }
+    .top_right_header .page_links li a {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .top_right_header {
+        justify-content: center;
+        padding: 25px 0 0;
+    }
+    .top_right_header .social_media li {
+        line-height: 20px;
+    }
+    .top_right_header .page_links li {
+        padding: 5px 15px;
+    }
+    .search_bar {
+        top: 45px;
+    }
+    /* Header End */
+    /* Footer Start */
+    .footer_left {
+        padding: 0 20px 80px 0;
+    }
+    .footer_contact_wrp ul li:nth-child(2) {
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .footer_contact_wrp ul li .blue_btn {
+        padding: 6px 26px;
+    }
+    .copyright_block {
+        text-align: center;
+        padding: 0 0 12px;
+    }
+    .privacy-policy ul {
+        justify-content: center;
+    }
+    .footer_left ul li:first-child img {
+        width: 200px;
+    }
+    .footer_left ul li:last-child img {
+        margin-left: 0;
+    }
+    .footer_left ul li {
+        padding: 0 0 25px;
+    }
+    .footer_left {
+        padding: 0 0 40px;
+    }
+    .footer_contact_wrp {
+        padding: 0 0 40px;
+    }
+    .footer span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer_links {
+        padding: 0 0 40px;
+    }
+    /* Footer end */
+}
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+/*=== Screen Size = 240, 320, 360, 480, 568 ===*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* header Start */
+    .top_left_header ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .top_left_header ul li {
+        padding: 0 10px 0;
+    }
+    /* header end */
+    /* Footer Start */
+    .footer_left {
+        padding: 0 0 40px;
+    }
+    .footer_links {
+        padding: 0;
+    }
+    /* Footer End */
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .banner-section .logo a {
+        text-align: center;
+    }
+    /* .navbar .navbar-nav .nav-item .nav-link { font-size: 12px; }
+    .navbar .navbar-brand img {width: 175px;} */
+    .heading {
+        font-size: 25px;
+    }
+    .banner-section {
+        padding: 200px 0px 80px;
+    }
+    .top-text .heading {
+        margin: 8px 0 10px;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .banner-section .title {
+        padding: 8px 8px;
+        margin-bottom: 12px;
+    }
+    .banner-section .b-head span {
+        font-size: 28px;
+    }
+    .fanding .fanding-text {
+        padding: 22px 20px;
+    }
+    .fanding-text .head {
+        margin-bottom: 20px;
+        padding-bottom: 12px;
+    }
+    .arrow li {
+        margin-bottom: 15px;
+    }
+    .disasters {
+        padding: 20px 0px 5px;
+    }
+    .trend-natural {
+        margin: 20px 0px 20px;
+    }
+    .worldwide {
+        padding: 20px 0px 20px;
+    }
+    .natural-country {
+        margin: 20px 0 0px;
+        padding: 30px 0px 30px;
+    }
+    .all-counter .counter-text .head {
+        font-size: 22px;
+    }
+    .are-getting {
+        padding: 20px 0 25px;
+    }
+    .deadliest-natural {
+        margin: 20px 0px 20px;
+    }
+}
+
+/*---------- Large Desktop , Large Screen End ----------*/
